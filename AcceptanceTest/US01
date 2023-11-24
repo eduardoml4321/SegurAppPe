@@ -1,1 +1,19 @@
+US01
+Feature: Comunicación de Emergencia Rápida
+Como ciudadano en movimiento, deseo tener la capacidad de comunicarme con las autoridades de emergencia de manera rápida y efectiva en situaciones de peligro para recibir ayuda o reportar incidentes de seguridad.
 
+Scenario 1:  Acceso rápido a las autoridades de emergencia
+Given que soy un ciudadano en movimiento en una situación de emergencia.
+When necesite comunicarme con las autoridades de emergencia.
+Then debo poder acceder a un botón de llamada de emergencia o una función similar en la aplicación, que me conecte de manera inmediata con las autoridades apropiadas.
+
+Scenario 2: Comunicación de ubicación en tiempo real
+Given que soy un ciudadano en movimiento en una situación de emergencia.
+When llame a las autoridades de emergencia a través de la aplicación.
+Then la aplicación debe enviar automáticamente mi ubicación en tiempo real a las autoridades para que puedan localizarme con precisión.
+
+
+Scenario 3: Confirmación de recepción de ayuda
+Given que soy un ciudadano en movimiento que solicita ayuda a las autoridades de emergencia.
+When reciba mi llamada de emergencia.
+Then debo recibir una confirmación de que mi solicitud de ayuda ha sido recibida y que la ayuda está en camino.
